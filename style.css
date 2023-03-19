@@ -5,3 +5,42 @@
     padding:0;
     box-sizing: border-box;
 }
+header{
+    width:100vw;
+    height: 100vh;
+    background-image: url('./images/sunrise_headerimg.jpg');
+    background-position:bottom;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+a{
+    text-decoration: none;
+}
+.header-content{
+  color:whitesmoke;
+  font-size: 4vmin;
+  text-align: center;
+ margin-top: 100px;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: rgb(7, 236, 121);
+    margin:5px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size:8vmin;
+    margin-top:10px;
+    margin-bottom:40px;
+
+}
+
+.btn{
+    padding:6px 12px;
+    background: rgb(7, 236, 121);
+    border-radius:80px;
+    color: aliceblue;
+}
