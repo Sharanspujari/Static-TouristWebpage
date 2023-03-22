@@ -86,6 +86,65 @@ a{
 .menu-btn:hover{
     background: aliceblue;
 }
+
+body , html{
+    overflow-x: hidden;
+}
+
+/* events */
+
+section
+{
+    width: 80%;
+   /* background-color: #fc036b; */
+    margin:80px auto;
+}
+
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(102, 102, 192);
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+ 
+} 
+
+.row .col img{
+
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.events .row{
+    margin-top: 50px;
+}
+
+h4{
+    font-size: 3vmin;
+    color: rgb(65, 65, 193);
+    margin: 20px auto;
+}
+p{
+    color: rgb(49, 49, 49);
+    font-size: 20px;
+    padding: 0 105px;
+}
+
+.events .btn{
+    margin-top: 30px;
+}
 /* Mobile Device */
 
 @media only screen and (max-width:850px){
